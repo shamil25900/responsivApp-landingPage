@@ -1,0 +1,940 @@
+/* Global classes */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+section{
+    padding: 100px 0px;
+}
+
+.heading-one{
+
+}
+.heading-two{
+
+}
+
+
+
+/* css layout---------- */
+
+/* =======================layout style================ */
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%; 
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12, .row {
+    width: 100%;
+    float: left;
+}
+
+/* ------------------------header-start----------- */
+header{
+ background-color: #223047;
+}
+nav{
+
+height: 70px !important;
+
+padding: 10px !important;
+}
+.logo-part{
+
+}
+.logo-part img{
+
+}
+.menu{
+
+}
+.menu ul{
+
+list-style: none;
+
+text-align: start;
+
+padding-top: 10px;
+}
+.menu li{
+
+display: inline-block;
+}
+.menu li a{
+
+color: white;
+
+padding: 10px 25px !important;
+
+font-size: 18px !important;
+margin-left: 50px !important;
+transition: all 0.3s;
+font-weight: 600;
+}
+.menu li a:hover{
+background-color: #01fff0;
+color: black;
+
+border-radius: 5px;
+}
+.btn-part{
+
+text-align: center;
+}
+.btn-part button{
+
+padding: 10px 50px !important;
+
+border-radius: 5px !important;
+
+background-color: #01fff0;
+
+font-size: 15px !important;
+
+font-weight: 500;
+transition: all 0.3s;
+}
+.btn-part button:hover{
+background-color: white;
+cursor: pointer;
+box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.399);
+transform: scale(1.1);
+}
+.underline{
+
+border: 0.1px solid;
+
+display: block;
+
+color: #ffffff47;
+}
+.hero-part{
+}
+.hero-writing{
+
+color: white;
+
+position: relative;
+
+top: 182px;
+
+left: 70px;
+}
+.hero-writing h1{
+
+font-size: 40px;
+
+font-weight: 500;
+}
+.hero-writing p{
+
+width: 74%;
+
+padding: 50px 0px;
+
+color: gray;
+line-height: 2;
+}
+.hero-btn{
+
+}
+.hero-btn button{
+    font-size: 16px;
+    font-weight: 500;
+
+padding: 10px 25px;
+
+border-radius: 7px;
+
+background-color: transparent;
+
+color: white;
+
+border: 1px solid #ffffffb3;
+
+position: relative;
+
+left: 4%;
+}
+.hero-btn  .light-btn{
+    position: relative !important;
+    left: 0%;
+    top: 1%;
+}
+.hero-btn button:hover{
+    background-color: #01fff0;
+    border: none;
+    box-shadow: 0px 3px 5px gray;
+    color: black;
+    font-weight: 500;
+}
+.hero-img{
+
+}
+.hero-img img{
+    position: relative;
+    left: 35%;
+    top: 117px;
+}
+
+
+/* -----------------------------------services section------------ */
+#services{background-color: #ffffff;
+    padding: 218px 0px;
+    text-align: center;
+    padding-bottom: 100px;}
+.services-writing{
+ text-align: center;
+}
+.services-writing h2{
+
+font-size: 30px;
+}
+.underspace{
+
+border-bottom: 6px solid #06fff0;
+
+display: block;
+
+width: 7%;
+
+margin: auto;
+
+padding: 16px;
+}
+.services-box-part{
+
+padding: 50px 0px;
+
+padding-bottom: 0px;
+}
+.services-box{
+
+padding: 24px;
+
+width: 22%;
+
+background-color: white;
+
+box-shadow: 0px 1px 1px #80808030;
+}
+.one-box{
+    
+position: relative;
+    
+left: 0%;
+}
+.two-box{
+
+position: relative;
+
+left: 4%;
+}
+.three-box{
+
+position: relative;
+
+left: 8%;
+}
+.four-box{
+
+position: relative;
+
+left: 12%;
+}
+.services-box:hover{
+ box-shadow: 3px 2px 5px gray;
+ transform: scale(1.1);
+ transition: ease-in-out 0.5s;
+}
+.services-box img{
+
+height: 100%;
+
+width: 50%;
+}
+.services-box h3{
+
+padding: 15px 0px;
+
+font-size: 18px;
+
+color: gray;
+}
+.services-box p{
+
+font-size: 15px;
+
+color: gray;
+}
+
+/* --------------------media queries----------- */
+/* -----------for big screen------------ */
+@media (min-width:1201px) {
+    .menu ul{
+        width: 100%;
+        position: relative;
+        right: 10% !important;
+        text-align: center !important;
+        }
+        .menu li{
+        
+        }
+        .menu li a{
+            margin-left: 30px !important;
+            font-size: 20px !important;
+        }
+
+
+    .services-box{
+
+padding: 50px 20px;
+
+width: 22%;}
+.services-box h3{
+font-size: 18px;
+}
+.services-box p{
+font-size: 15px;
+}
+}
+
+/* ---------------------for 0ld laptop desktop------------- */
+@media (min-width:990px) and (max-width:1200px) {
+
+.menu ul{
+        width: 100%;
+        position: relative;
+        right: 8% !important;
+        }
+        .menu li{
+        
+        }
+        .menu li a{
+        color: white;
+        padding: 10px 15px;
+        margin: 0px 5px !important;
+        }
+        
+        .hero-writing{      
+            position: absolute;
+            
+            top: 150px;
+            
+            left: 10%;
+            }
+            .hero-btn{
+            
+            }
+            .hero-btn  .light-btn{
+                position: relative !important;
+                left: 0%;
+                top: 1%;
+            }
+            
+            .hero-img img{
+                position: relative;
+                left: 120%;
+                top: 117px;
+            }
+        .hero-img img{
+              width: 60%;
+            }
+            
+
+    /* ------------services section--------- */
+
+    #services{
+        width: 100% !important;
+    }
+
+    .services-box-part{
+margin: auto;
+width: 100%;
+        }
+.services-box{
+
+padding: 50px 1.1rem;
+
+width: 22%;}
+.services-box h3{
+font-size: 15px;
+}
+.services-box p{
+font-size: 12px;
+}
+}
+
+/* -----------------for tablet device---- */
+@media (min-width:768px) and (max-width:990px) {
+   
+    nav{
+        text-align: center !important;
+    }
+
+    .logo-part{
+        position: relative !important;
+        top: 2%;
+        right: 10% !important;
+    }
+    .logo-part img{
+    width: 60% !important;
+    }
+    .menu ul{
+        width: 100%;
+        padding: 0px;
+        }
+        .menu{
+            position: absolute;
+            left: 23%;
+            top: 3%;
+        text-align: center !important;
+
+           
+        }
+        .menu li a{
+        padding: 10px 10px;
+        margin: 0px 5px !important;
+        font-weight: 400;
+        }
+.btn-part button{
+padding: 10px 20px !important;
+position: absolute;
+top: 2%;
+right: 3%;
+
+}
+        .hero-writing{      
+            position: absolute;
+            
+            top: 15%;
+            
+            left: 7%;
+            }
+            .hero-writing h1{
+                font-size: 2rem;
+            }
+            .hero-writing p{
+                font-size: 0.8rem;
+                padding: 10px 0px;
+            }
+
+            .hero-btn button{
+                font-size: .8rem;
+                padding: 10px 10px;
+                position: relative;
+                top: 10px !important;
+            
+            }
+            
+            
+            .hero-img img{
+                position: relative;
+                left: 125%;
+                top: 60px;
+            }
+        .hero-img img{
+              width: 60%;
+            }
+            
+
+    /* ------------services section--------- */
+
+#services{
+    padding: 100px 0px;
+}
+
+.services-writing h2{
+    font-size: 25px;
+    }
+    .services-box-part{
+        width: 100vw%;
+    }
+
+.one-box{
+    width: 40%;
+    
+    position: relative;
+    left: 4%;
+}
+.two-box{
+    width: 40%;
+    position: relative;
+
+left: 15%;
+}
+.three-box{
+    width: 40%;
+    
+    position: relative;
+    top: 50px;
+    left: 5%;
+}
+.four-box{
+    width: 40%;
+    
+    position: relative;
+    left: 15%;
+    top: 50px;
+}
+
+.services-box{
+padding: 40px 2rem;
+}
+.services-box h3{
+font-size: 18px;
+}
+.services-box p{
+font-size: 15px;
+}
+
+}
+
+/* --------------------for small tablet devices------------- */
+@media (min-width:600px) and (max-width:768px) {
+    nav{
+        height: 10vh !important;
+    }
+    header{
+       height: 980px !important;
+    }
+
+    .logo-part{
+    
+    }
+    .logo-part img{
+        width: 12%;
+        position: absolute;
+        top: 2%;
+        left: 3%;
+    }
+    .menu ul{
+        width: auto%;
+        position: absolute;
+        top: 2%;
+        left: 16%;
+        }
+        .menu{
+            width: 100%;
+        }
+        .menu li a{
+          margin: 0px 2px !important;
+          font-weight: 300 !important;
+        }
+        .btn-part button{
+         padding: 10px 10px !important;
+         position: absolute;
+         top: 2%;
+         right: 3%;
+        }
+        .hero-writing{ 
+            text-align: center;
+            position: relative;
+            top: 50px;
+            left: 5%;     
+            width: 90%;
+            }
+            .hero-writing h1{
+                font-size: 1.8rem;
+            }
+            .hero-writing p{
+                font-size: .8rem;
+                padding: 10px 35px;
+                line-height: 1.5;
+                word-spacing: 3.3px;
+                width: 100%;
+                
+            }
+
+            .hero-btn button{
+             font-size: .9rem;
+             padding: 8px 15px;
+             position: relative;
+             top: 540px !important;
+            
+            }
+            .hero-img{
+                text-align:center;
+            }
+        .hero-img img{
+            width: auto !important;
+            margin: auto !important;
+            height: 460px;
+            position: absolute !important;
+            top:320px !important;
+            left: 33.3%;
+            
+            }
+            
+
+    /* ------------services section--------- */
+
+#services{
+    padding: 50px;
+}
+
+.services-writing h2{
+   font-size: 1.4rem;
+   font-weight: 300;
+    }
+.underspace{
+
+border-bottom: 3px solid #06fff0;
+
+width: 15%;
+padding: 12px;
+}
+    .services-box-part{
+        padding: 70px 0px;
+    }
+
+.one-box{
+    width: 45%;
+}
+.two-box{
+    width: 45%;
+    left: 8% !important;
+
+
+}
+.three-box{
+    width: 45%;
+    top: 25px;
+}
+.four-box{
+    width:45%;
+    left: 8% !important;
+    top: 25px;
+}
+
+.services-box{
+    position: relative;
+    left: 0%;
+    padding: 20px 10px;
+
+}
+.services-box h3{
+ font-size: .7rem;
+}
+.services-box p{
+ font-size: .5rem;
+}
+}
+
+/* -----------------------for mobile devices------ */
+@media (min-width:320px) and  (max-width:600px) {
+    nav{
+        height: 50px !important;
+    }
+    header{
+       height: 680px !important;
+    }
+
+    .logo-part{
+    
+    }
+    .logo-part img{
+        width: 20%;
+        position: absolute;
+        top: 1%;
+        left: 3%;
+    }
+
+    /* ============================================
+    ==========================================
+    ==================================== */
+    .menu ul{
+        width: auto;
+        position: absolute;
+        top: 2%;
+        left: 12%;
+        }
+        .menu{
+            opacity: 0;
+            visibility: hidden;
+        }
+        .menu li a{
+          margin: 0px 0px !important;
+          font-weight: 300 !important;
+          font-size: .9rem !important;
+          padding: 5px !important;
+        }
+    /* =================================================
+    ============================================
+    ======================================== */
+        .btn-part button{
+         padding: 5px 7px !important;
+         font-size: .6rem !important;
+         position: absolute;
+         top: 1%;
+         right: 3%;
+        }
+        .hero-writing{ 
+            text-align: center;
+            position: relative;
+            top: 30px;
+            left: 5%;     
+            width: 90%;
+            }
+            .hero-writing h1{
+                font-size: 1.4rem;
+            }
+            .hero-writing p{
+                font-size: .6rem;
+                padding: 10px 0px;
+                line-height: 1.5;
+                word-spacing: 3.3px;
+                width: 100%;
+                
+            }
+
+            .hero-btn button{
+             font-size: .8rem;
+             padding: 6px 12px;
+             position: relative;
+             top: 360px !important;
+             margin: 10px 15px 0px 0px;
+            }
+            .light-btn{
+                margin-left: 15px !important;
+            }
+            .hero-img{
+                text-align: center;
+
+            }
+        .hero-img img{
+            max-width: auto;
+            height: 320px;
+            position: absolute !important;
+            top:220px !important;
+            /* left: 33%; */
+            
+            }
+            
+
+    /* ------------services section--------- */
+
+#services{
+    padding: 30px 0px;
+}
+.services-writing h2{
+   font-size: 1.2rem;
+   font-weight: 400;
+    }
+.underspace{
+border-bottom: 3px solid #06fff0;
+width: 20%;
+}
+    .services-box-part{
+        padding: 70px 0px;
+        margin: auto;
+    }
+
+.two-box{
+    top: 1rem;
+
+
+}
+.three-box{
+   top: 2rem;
+}
+.four-box{
+top: 3rem;
+}
+
+.services-box{
+    position: relative;
+    left: 5%;
+    padding: 20px 15px;
+    width:90%;
+
+}
+.services-box h3{
+ font-size: 1.5rem;
+}
+.services-box p{
+ font-size: 1rem;
+}
+}
+/* -----------------small mobile devices--------------- */
+@media only screen and (max-width:320px) {
+    nav{
+        height: 40px !important;
+    }
+    header{
+       height: 460px !important;
+    }
+
+    .logo-part img{
+        width: 23%;
+        position: absolute;
+        top: 1%;
+        left: 3%;
+    }
+
+    /* ============================================
+    ==========================================
+    ==================================== */
+    .menu ul{
+        width: auto;
+        position: absolute;
+        top: 2%;
+        left: 12%;
+        }
+        .menu{
+            opacity: 0;
+            visibility: hidden;
+        }
+        .menu li a{
+          margin: 0px 0px !important;
+          font-weight: 300 !important;
+          font-size: .9rem !important;
+          padding: 5px !important;
+        }
+    /* =================================================
+    ============================================
+    ======================================== */
+        .btn-part button{
+         padding: 3px 5px !important;
+         font-size: .5rem !important;
+         position: absolute;
+         top: 1%;
+         right: 3%;
+        }
+        .hero-writing{ 
+            text-align: center;
+            position: relative;
+            top: 10px;
+            left: 5%;     
+            width: 90%;
+            }
+            .hero-writing h1{
+                font-size: 1rem;
+            }
+            .hero-writing p{
+                font-size: .4rem;
+                padding: 10px 0px;
+                line-height: 1.5;
+                word-spacing: 3.3px;
+                width: 100%;
+                
+            }
+
+            .hero-btn button{
+             font-size: .7rem;
+             padding: 4px 8px;
+             position: relative;
+             top: 220px !important;
+             margin: 10px 15px 0px 0px;
+            }
+            .light-btn{
+                margin-left: 15px !important;
+            }
+            .hero-img{
+                width: 90%;
+                margin: auto;
+            }
+        .hero-img img{
+            width: auto;
+            height: 200px;
+            position: absolute !important;
+            top:160px !important;
+            left: 33.333%;
+            
+            }
+            
+
+    /* ------------services section--------- */
+
+#services{
+    padding: 20px 0px;
+}
+.services-writing h2{
+   font-size: .9rem;
+   font-weight: 400;
+    }
+.underspace{
+border-bottom: 3px solid #06fff0;
+width: 20%;
+}
+    .services-box-part{
+        padding: 70px 0px;
+        margin: auto;
+    }
+
+.two-box{
+    top: 1rem;
+
+
+}
+.three-box{
+   top: 2rem;
+}
+.four-box{
+top: 3rem;
+}
+
+.services-box{
+    position: relative;
+    left: 5%;
+    padding: 20px 15px;
+    width:90%;
+
+}
+.services-box h3{
+ font-size: 1rem;
+}
+.services-box p{
+ font-size: .8rem;
+}
+}
